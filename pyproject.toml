@@ -1,0 +1,10 @@
+[project]
+name = "atcoder-abc-daily-notify"
+version = "0.1.0"
+description = "Slack notification bot for AtCoder ABC daily practice"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
